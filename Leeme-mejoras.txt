@@ -1,0 +1,6 @@
+MEJORAS:
+- He incluido un FAVICON con el logo de las Torres de Hanoi.
+- He mejorado las puntas de las torres en canvas, con terminaciones en redondo más realistas empleando curvas. 
+- Asismimo, he incluido una base para los palos para que los discos no se situen sobre el borde del canvas y sea un poco más visual.
+- He incluido una fotografía relacionada con la resolución correcta del rompecabezas.
+- He incluido un poco de CSS para que la pequeña aplicación sea un poco más visual, incluyendo tipografías fantasy y otras propiedades.

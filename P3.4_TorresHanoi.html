@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+      <head>
+      <title>Práctica 3.4 Torres de Hanoi</title>
+      <meta charset="UTF-8">
+      <meta name="author" content="Jose Luis Coloma"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/estiloTorres.css"/>
+      <link rel="icon" href="images/logoTorresHanoi.png" type="image/png"/>
+      <script src="js/torres.js"></script>
+   </head>
+ <body>
+   <h1>Torres de Hanói</h1>
+   Nº Discos&nbsp;&nbsp;&nbsp;
+   <input id="numeroDiscos" name="discos" onchange="dibujaDiscosOrigen()"
+   type="number" value="3" size="5" min=1 max=5 step=1 onkeydown="return false">
+   <br><br>
+   Origen&nbsp;&nbsp;
+   <select id="posteOrigen" onchange="dibujaDiscosOrigen()" required>
+      <option value="Elige" selected>Elige...</option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+   </select>
+   <br><br>
+   Destino&nbsp;
+   <select  id="posteDestino" required>
+      <option value="Elige" selected>Elige...</option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+   </select>
+   <br><br>
+   <button type="button" onclick="resolver()" class="estiloBotones">RESOLVER</button>
+   <button type="button" onclick="limpiar()" class="estiloBotones">RESET</button>
+   <br><br>
+   <canvas id="lienzo1" width="500" height="250"></canvas>
+   <img src="images/img2.JPG" alt="foto de la vitoria" width="200" height="270" id="foto">
+   <br><br>
+   <h3>Movimientos</h3>
+   <div id="mov"></div>
+   <noscript>
+      <p> Esta página usa JavaScript. Por favor, actívalo para que todo funcione correctamente</p>
+   </noscript>
+</body>
+</html>

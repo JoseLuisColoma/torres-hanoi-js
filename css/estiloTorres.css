@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Pad Thai';
+	src: url(../fonts/PADTHAI_.TTF);
+}
+
+body{
+background-color: lightcyan;
+font-family: 'Helvetica';
+font-size: 16px;
+padding-left: 5%;
+flex:auto;
+}
+
+h1,h3 {
+  font-family: 'Pad Thai';
+}
+
+#lienzo1 {
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lavender;
+}
+
+.estiloBotones {
+  background-color: steelblue;
+  font-family: 'Arial';
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.estiloBotones:hover {
+    background-color: lightgreen ;
+    color: black;
+    font-family: 'Pad Thai';
+}
+
+#mov {
+  line-height: 2em;
+  font-size: 14px;
+}
+
+#foto {
+  margin-left: 10px;
+}
+
